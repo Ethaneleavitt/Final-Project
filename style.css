@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(235, 235, 235);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}   
+#header{
+    background-color: #fff;
+    margin: 0% 3% 0% 3%;
+    position: fixed;
+    width: 94%;
+}
+#header h3 {
+    margin: 5px;
+    padding: 25px 15px 0px 15px;
+    font-family: 'Raleway', sans-serif;
+}
+#header h1 {
+    padding: 0px 15px 15px 15px;
+    margin: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1100;
+}
+
+#placeHolderBrick {
+    background-color: rgb(219, 219, 219);
+    margin: 0% 3%;
+    padding: 0% 0% 4% 0%;
+    height: 100%;
+    z-index: -1;
+    
+}
+#contentContainer {
+    background-color: rgb(219, 219, 219);
+    margin: 0% 3%;
+    
+    height: 100%;
+    z-index: -1;
+    
+}
+.content {
+    background-color: rgb(226, 226, 226);
+    bottom: 0px;
+    padding: 20px; 
+    margin: 0px 30px 30px 30px;
+}
+img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    float: left;
+    top: 25px;
+}
+
+.delete {
+    float: right;
+    color: rgb(155, 182, 206);
+    padding: 0px 15px 0px 0px;
+}
+.edit {
+    float: right;
+    color: rgb(155, 182, 206);
+    padding: 0px 15px 0px 10px;
+
+}
+.displayName {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 20px 20px 0px 0px;  
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0px;
+    align-self: center;
+    flex-direction: column;
+}
+.textBox {
+    width: 65%;
+    margin: 0px 60px; 
+    height: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+}
+
+.submitButtton1 {
+    float: left;
+    color: rgb(155, 182, 206);
+    margin: 25px 25px 25px 10px;
+    font-size: large;
+    font-family: 'Raleway', sans-serif;
+}
+#footer {
+    position: fixed;
+    bottom: 0px;
+    margin:0% 3% 0% 3%;
+    display: inline;
+    background-color: #fff;
+    padding: 0px;
+    width: 94%;
+    
+}
+#displayName {
+   float: left;
+   width: 20%;
+   margin: 25px 5px 25px 25px;
+   height: 30px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 17px;
+}
+#comment {
+    float: left;
+    width: 55%;
+    margin: 25px 5px 25px 0px;
+    height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+}
+.submit {
+    float: right;
+    color: rgb(180, 211, 238);
+    margin: 25px 25px 25px 10px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 150px;
+}
+.die {
+    display: none;
+}
